@@ -1,0 +1,71 @@
+body{
+    background-color:#ededed;
+}
+.content{
+    margin:1.5rem ;
+    border-right:2px solid #ededed;
+   
+}
+.search-bar{
+    background-color:transparent;
+    border:none;
+    outline:none;
+    width:100%;
+}
+.approve{
+     background:#0a713dde;
+    border-radius:20px;
+    padding:.4rem 1rem;
+    border:1px solid green;
+    color:white;
+    font-size:1rem;
+}
+.print{
+    background-color:transparent;
+    border:none;
+    outline:none;
+    color:#0a713dde;
+    font-size:1.5rem;
+}
+th{
+    padding:.7rem;
+    color:white;
+}
+tr{
+        border-radius: 10px;
+
+}
+
+table tr:last-child th:first-child {
+    border-top-left-radius: 10px;
+}
+    
+table tr:last-child th:last-child {
+    border-top-right-radius: 10px;
+}
+.app-btn{
+    color:green;
+    background-color:transparent;
+    border:none;
+    outline:none;
+}
+.cancel-btn{
+     color:red;
+    background-color:transparent;
+    border:none;
+    outline:none;
+    position: relative;
+
+}
+
+img{
+    width:50px;
+    height:50px;
+}
+
+.pop-up{
+    position:absolute;
+    background-color:#ededed;
+    top:50%;
+    left:50%;
+}
